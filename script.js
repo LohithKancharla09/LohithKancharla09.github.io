@@ -1,4 +1,6 @@
-const cards = document.querySelectorAll(".info-card, .about-text, .skills-card, .reflection-box");
+const cards = document.querySelectorAll(
+  ".info-card, .about-text, .skills-card, .reflection-box, .case-card, .comparison-panel, .insight-strip div, .artifact-two-hero"
+);
 
 const observer = new IntersectionObserver(
   entries => {
