@@ -102,6 +102,12 @@ nav a:hover {
   margin-bottom: 24px;
 }
 
+.hero-buttons {
+  display: flex;
+  gap: 14px;
+  flex-wrap: wrap;
+}
+
 .btn {
   display: inline-block;
   background: linear-gradient(135deg, #7c3aed, #00a8e8);
@@ -111,6 +117,12 @@ nav a:hover {
   text-decoration: none;
   font-weight: 800;
   box-shadow: 0 12px 25px rgba(124, 58, 237, 0.25);
+}
+
+.secondary-btn {
+  background: white;
+  color: #4c1d95;
+  border: 2px solid rgba(124, 58, 237, 0.25);
 }
 
 .hero-card {
@@ -243,10 +255,204 @@ nav a:hover {
   grid-column: span 2;
 }
 
+/* Artifact 2 */
+
+.artifact-two-section {
+  background:
+    radial-gradient(circle at top left, rgba(124, 58, 237, 0.12), transparent 30%),
+    radial-gradient(circle at bottom right, rgba(0, 194, 255, 0.14), transparent 30%),
+    #f5f8ff;
+}
+
+.artifact-two-hero {
+  background: linear-gradient(135deg, #071b3d, #4c1d95);
+  color: white;
+  border-radius: 28px;
+  padding: 38px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  box-shadow: 0 20px 55px rgba(12, 35, 75, 0.18);
+  margin-bottom: 35px;
+}
+
+.artifact-two-hero h3 {
+  font-size: 30px;
+  margin-bottom: 12px;
+}
+
+.artifact-two-hero p {
+  max-width: 760px;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.artifact-badge {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: rgba(255, 255, 255, 0.12);
+  padding: 18px 22px;
+  border-radius: 22px;
+  font-weight: 900;
+  font-size: 20px;
+  white-space: nowrap;
+}
+
+.artifact-badge span:nth-child(1),
+.artifact-badge span:nth-child(3) {
+  background: white;
+  color: #4c1d95;
+  padding: 10px 14px;
+  border-radius: 14px;
+}
+
+.insight-strip {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+  margin-bottom: 35px;
+}
+
+.insight-strip div {
+  background: white;
+  border-radius: 20px;
+  padding: 22px;
+  box-shadow: 0 12px 35px rgba(12, 35, 75, 0.08);
+  border-top: 5px solid #7c3aed;
+}
+
+.insight-strip strong {
+  color: #4c1d95;
+  display: block;
+  margin-bottom: 8px;
+  font-size: 18px;
+}
+
+.insight-strip p {
+  color: #334155;
+}
+
+.case-study-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  margin-bottom: 35px;
+}
+
+.case-card {
+  background: white;
+  border-radius: 24px;
+  padding: 30px;
+  box-shadow: 0 14px 40px rgba(12, 35, 75, 0.09);
+  border-top: 6px solid #7c3aed;
+}
+
+.dl-card {
+  border-top-color: #0284c7;
+}
+
+.case-label {
+  display: inline-block;
+  background: #ede9fe;
+  color: #4c1d95;
+  padding: 7px 12px;
+  border-radius: 999px;
+  font-size: 13px;
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 14px;
+}
+
+.dl-card .case-label {
+  background: #e0f2fe;
+  color: #075985;
+}
+
+.case-card h3 {
+  color: #071b3d;
+  font-size: 28px;
+  margin-bottom: 16px;
+}
+
+.case-card h4 {
+  color: #7c3aed;
+  font-size: 18px;
+  margin: 20px 0 8px;
+}
+
+.dl-card h4 {
+  color: #0284c7;
+}
+
+.case-card p {
+  margin-bottom: 14px;
+}
+
+.mini-takeaway {
+  margin-top: 20px;
+  background: #f8fafc;
+  border-left: 4px solid #7c3aed;
+  padding: 15px;
+  border-radius: 12px;
+  color: #102033;
+}
+
+.dl-card .mini-takeaway {
+  border-left-color: #0284c7;
+}
+
+.comparison-panel {
+  background: white;
+  border-radius: 28px;
+  padding: 32px;
+  box-shadow: 0 14px 40px rgba(12, 35, 75, 0.09);
+  margin-bottom: 35px;
+}
+
+.comparison-panel h3 {
+  font-size: 28px;
+  color: #071b3d;
+  margin-bottom: 22px;
+  text-align: center;
+}
+
+.comparison-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+.comparison-card {
+  background: #f8fafc;
+  border-radius: 20px;
+  padding: 24px;
+  border: 1px solid #e2e8f0;
+}
+
+.comparison-card h4 {
+  color: #4c1d95;
+  font-size: 21px;
+  margin-bottom: 14px;
+}
+
+.comparison-card ul {
+  padding-left: 20px;
+}
+
+.comparison-card li {
+  margin-bottom: 10px;
+}
+
+.artifact-two-info {
+  margin-top: 10px;
+}
+
 .reflection {
   background:
     radial-gradient(circle at top right, rgba(0, 194, 255, 0.16), transparent 30%),
-    #f5f8ff;
+    #ffffff;
 }
 
 .reflection-box p {
@@ -302,11 +508,23 @@ footer {
   }
 
   .about-grid,
-  .info-grid {
+  .info-grid,
+  .case-study-grid,
+  .comparison-grid,
+  .insight-strip {
     grid-template-columns: 1fr;
   }
 
   .wide {
     grid-column: span 1;
+  }
+
+  .artifact-two-hero {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .artifact-two-hero h3 {
+    font-size: 25px;
   }
 }
