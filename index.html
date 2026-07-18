@@ -14,6 +14,7 @@
     <nav>
       <a href="#home">Home</a>
       <a href="#about">About</a>
+      <a href="#artifact3">Artifact 3</a>
       <a href="#artifact2">Artifact 2</a>
       <a href="#artifact">Artifact 1</a>
       <a href="#reflection">Reflection</a>
@@ -26,22 +27,22 @@
       <p class="student-name">Lohith Kancharla</p>
       <p class="tagline">Machine Learning Fundamentals Portfolio</p>
 
-      <h1>Exploring Artificial Intelligence, Machine Learning, and Professional Growth</h1>
+      <h1>Building AI/ML Understanding Through Data, Design, and Real-World Application</h1>
 
       <p>
-        This portfolio highlights my learning journey in AI and Machine Learning through selected artifacts that show research, technical understanding, design thinking, and real-world application.
+        This portfolio highlights my growth in Artificial Intelligence and Machine Learning through selected artifacts that show research, technical decision-making, cloud data engineering thinking, and professional communication.
       </p>
 
       <div class="hero-buttons">
-        <a href="#artifact2" class="btn">View Latest Artifact</a>
-        <a href="#artifact" class="btn secondary-btn">View Artifact 1</a>
+        <a href="#artifact3" class="btn">View Latest Artifact</a>
+        <a href="#artifact2" class="btn secondary-btn">View Artifact 2</a>
       </div>
     </div>
 
     <div class="hero-card">
       <h3>Latest Artifact</h3>
-      <p>ML vs. Deep Learning Case Study</p>
-      <span>Comparison • Analysis • Real-World Use</span>
+      <p>AI-Ready Data Pipeline Design</p>
+      <span>GCP • BigQuery • ML Readiness</span>
     </div>
   </section>
 
@@ -54,28 +55,223 @@
     <div class="about-grid">
       <div class="about-text">
         <p>
-          I am building this portfolio to document my growth in Artificial Intelligence and Machine Learning. Through this course, I am learning how AI has developed over time, how machine learning is used in real-world industries, and how technology can support problem-solving and innovation.
+          I am building this portfolio to document my growth in Artificial Intelligence and Machine Learning. Through this course, I am learning how AI has developed over time, how machine learning is used in real-world industries, and how strong data foundations support better AI systems.
         </p>
 
         <p>
-          This portfolio is also a place to show not only what I created, but how I created it. Each artifact includes the objective, process, tools, and value behind the work.
+          As someone interested in GCP data engineering, I want this portfolio to show more than completed assignments. I want it to show how I think through problems, design solutions, communicate technical ideas, and connect AI/ML concepts to professional data work.
         </p>
       </div>
 
       <div class="skills-card">
         <h3>Skills Highlighted</h3>
         <ul>
-          <li>Research and organization</li>
-          <li>Visual communication</li>
-          <li>AI/ML awareness</li>
-          <li>Critical thinking</li>
-          <li>Real-world application</li>
-          <li>Digital presentation</li>
+          <li>GCP data engineering thinking</li>
+          <li>AI/ML readiness</li>
+          <li>Data pipeline design</li>
+          <li>Machine learning comparison</li>
+          <li>Research and visual communication</li>
+          <li>Professional portfolio presentation</li>
         </ul>
       </div>
     </div>
   </section>
 
+  <!-- ARTIFACT 3 FIRST -->
+  <section id="artifact3" class="section artifact-three-section">
+    <div class="section-title">
+      <p>Portfolio Artifact 3</p>
+      <h2>AI-Ready Data Pipeline Design</h2>
+    </div>
+
+    <div class="artifact-three-hero">
+      <div>
+        <h3>Connecting GCP Data Engineering with Machine Learning Readiness</h3>
+        <p>
+          This artifact shows how raw business data can move through a cloud data pipeline and become reliable, organized, and ready for machine learning. It highlights a key professional idea: AI models are only as strong as the data pipelines behind them.
+        </p>
+      </div>
+
+      <div class="pipeline-score-card">
+        <span>AI Readiness</span>
+        <strong id="readinessScore">86%</strong>
+        <p id="readinessLabel">Strong ML foundation</p>
+      </div>
+    </div>
+
+    <div class="problem-solution-grid">
+      <div class="problem-card">
+        <h3>Problem I Was Solving</h3>
+        <p>
+          Many AI/ML projects focus on the model, but the model cannot perform well if the data is incomplete, duplicated, outdated, inconsistent, or poorly organized. I wanted to show how data engineering supports machine learning before training ever begins.
+        </p>
+      </div>
+
+      <div class="problem-card">
+        <h3>My Approach</h3>
+        <p>
+          I designed a GCP-style pipeline that moves data from ingestion to storage, cleaning, BigQuery analytics, feature preparation, quality checks, and ML training support. The goal was to make the pipeline clear enough for a business audience and technical enough for a recruiter.
+        </p>
+      </div>
+
+      <div class="problem-card">
+        <h3>Outcome</h3>
+        <p>
+          The final artifact is an interactive portfolio section that explains how cloud data engineering supports AI/ML success. It demonstrates system design, data quality thinking, ML readiness, and professional communication.
+        </p>
+      </div>
+    </div>
+
+    <div class="pipeline-lab">
+      <div class="pipeline-lab-header">
+        <div>
+          <p>Interactive Pipeline Walkthrough</p>
+          <h3>Click each stage to see how data becomes AI-ready</h3>
+        </div>
+        <span>Recruiter-Friendly System Design</span>
+      </div>
+
+      <div class="pipeline-steps">
+        <button class="pipeline-step active" data-stage="ingestion">1. Ingestion</button>
+        <button class="pipeline-step" data-stage="storage">2. Cloud Storage</button>
+        <button class="pipeline-step" data-stage="cleaning">3. Cleaning</button>
+        <button class="pipeline-step" data-stage="bigquery">4. BigQuery</button>
+        <button class="pipeline-step" data-stage="features">5. Features</button>
+        <button class="pipeline-step" data-stage="ml">6. ML Ready</button>
+      </div>
+
+      <div class="pipeline-display">
+        <div class="pipeline-visual">
+          <div class="node source-node">Sources</div>
+          <div class="flow-line"></div>
+          <div class="node gcp-node" id="activeStageIcon">Ingestion</div>
+          <div class="flow-line"></div>
+          <div class="node model-node">ML Model</div>
+        </div>
+
+        <div class="pipeline-content">
+          <p class="stage-tag" id="stageTag">Stage 1</p>
+          <h3 id="stageTitle">Data Ingestion</h3>
+          <p id="stageDescription">
+            Raw data is collected from applications, files, APIs, logs, or databases. This is the starting point of the pipeline, where data first enters the cloud environment.
+          </p>
+
+          <div class="stage-details">
+            <div>
+              <strong>GCP Tools</strong>
+              <p id="stageTools">Cloud Storage, Pub/Sub, Dataflow</p>
+            </div>
+            <div>
+              <strong>ML Value</strong>
+              <p id="stageValue">Creates a reliable starting point for downstream analysis and model preparation.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="quality-dashboard">
+      <div class="dashboard-copy">
+        <p>Data Quality Simulator</p>
+        <h3>Why pipeline quality matters for AI/ML</h3>
+        <p>
+          Adjust the quality checks below to see how data readiness affects machine learning confidence. This shows that reliable AI begins before model training.
+        </p>
+      </div>
+
+      <div class="dashboard-controls">
+        <label>
+          Completeness
+          <input type="range" min="40" max="100" value="88" class="quality-slider" id="completeSlider">
+          <span id="completeValue">88%</span>
+        </label>
+
+        <label>
+          Accuracy
+          <input type="range" min="40" max="100" value="84" class="quality-slider" id="accuracySlider">
+          <span id="accuracyValue">84%</span>
+        </label>
+
+        <label>
+          Consistency
+          <input type="range" min="40" max="100" value="86" class="quality-slider" id="consistencySlider">
+          <span id="consistencyValue">86%</span>
+        </label>
+      </div>
+    </div>
+
+    <div class="architecture-grid">
+      <div class="architecture-card">
+        <h3>Data Engineering Decisions</h3>
+        <ul>
+          <li>Keep a raw copy of source data for audit and recovery.</li>
+          <li>Clean missing, duplicate, and inconsistent records before analysis.</li>
+          <li>Use BigQuery tables to organize trusted analytics data.</li>
+          <li>Prepare ML features only after quality checks are complete.</li>
+        </ul>
+      </div>
+
+      <div class="architecture-card">
+        <h3>AI/ML Readiness Checks</h3>
+        <ul>
+          <li>Is the dataset complete enough for training?</li>
+          <li>Are labels, categories, and formats consistent?</li>
+          <li>Could the data contain bias or missing groups?</li>
+          <li>Can the business trust the model’s input data?</li>
+        </ul>
+      </div>
+
+      <div class="architecture-card">
+        <h3>Professional Skills Shown</h3>
+        <ul>
+          <li>Cloud data pipeline design</li>
+          <li>BigQuery and analytics thinking</li>
+          <li>Machine learning preparation</li>
+          <li>Responsible AI awareness</li>
+          <li>Technical communication</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="info-grid artifact-three-info">
+      <div class="info-card">
+        <h3>Title: What Is It?</h3>
+        <p>
+          This artifact is an interactive AI-ready data pipeline design. It explains how raw data can move through a GCP-style pipeline and become ready for machine learning use.
+        </p>
+      </div>
+
+      <div class="info-card">
+        <h3>Objective</h3>
+        <p>
+          The objective was to show that successful AI/ML projects depend on strong data foundations. I wanted to connect machine learning concepts with practical cloud data engineering work.
+        </p>
+      </div>
+
+      <div class="info-card">
+        <h3>Process</h3>
+        <p>
+          I identified common stages in a data pipeline, connected each stage to machine learning readiness, and designed an interactive portfolio section that explains the pipeline visually and professionally.
+        </p>
+      </div>
+
+      <div class="info-card">
+        <h3>Tools Used</h3>
+        <p>
+          I used HTML, CSS, JavaScript, ChatGPT for organization and wording support, VS Code for development, GitHub for version control, and GitHub Pages for publishing.
+        </p>
+      </div>
+
+      <div class="info-card wide">
+        <h3>Value Proposition</h3>
+        <p>
+          This artifact is valuable because it presents me as someone who understands both AI/ML concepts and the data engineering work required to support them. It shows problem-solving, system design, data quality thinking, and professional communication.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ARTIFACT 2 -->
   <section id="artifact2" class="section artifact-two-section">
     <div class="section-title">
       <p>Portfolio Artifact 2</p>
@@ -226,6 +422,7 @@
     </div>
   </section>
 
+  <!-- ARTIFACT 1 -->
   <section id="artifact" class="section artifact-section">
     <div class="section-title">
       <p>Portfolio Artifact 1</p>
@@ -282,19 +479,19 @@
 
     <div class="reflection-box">
       <p>
-        Creating the AI and ML Timeline helped me understand that artificial intelligence did not develop overnight. Before this assignment, I mostly thought of AI as a modern technology, but this artifact showed me that AI has a long history going back to the 1950s.
+        My third artifact, the AI-Ready Data Pipeline Design, helped me connect my AI/ML coursework with my professional direction as a GCP Data Engineer. I learned that machine learning success depends not only on algorithms, but also on clean, reliable, well-designed data pipelines.
       </p>
 
       <p>
-        One important lesson I learned is that AI progress depends on more than strong ideas. Early researchers had big goals, but the technology was not always ready. The AI winters showed that limited computing power, high expectations, and lack of practical results slowed progress.
+        My second artifact, the Machine Learning vs. Deep Learning case study, helped me compare two AI/ML approaches and explain why each one fits a different type of problem. It strengthened my ability to think critically and communicate technical decisions clearly.
       </p>
 
       <p>
-        My second artifact, the Machine Learning vs. Deep Learning case study, helped me show a different skill. Instead of creating a visual history timeline, I compared two AI/ML approaches and explained why each one fits a different type of problem.
+        Creating the AI and ML Timeline helped me understand that artificial intelligence did not develop overnight. It showed me how early ideas, AI winters, deep learning breakthroughs, and modern generative AI are connected.
       </p>
 
       <p>
-        Together, these artifacts show both my understanding of AI history and my ability to apply AI/ML concepts to real-world decision-making. They also show my growth in research, communication, critical thinking, and digital presentation.
+        Together, these artifacts show my growth in data engineering thinking, AI/ML understanding, research, technical communication, and professional portfolio presentation.
       </p>
     </div>
   </section>
